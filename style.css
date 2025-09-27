@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Signika Negative", sans-serif;
+}
+
+.homePage {
+  /* background-image: url(/images/الخلفية.png); */
+  background: linear-gradient(45deg, #240165, #05001c);
+  background-repeat: no-repeat;
+  background-size: cover; /* تغطي الصفحة كلها */
+  background-position: center;
+  min-height: 100vh;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.topSaid {
+  padding: 20px;
+  margin-bottom: 50px;
+  border-bottom: 2px solid white;
+}
+
+.topSaid h1 {
+  font-size: 100px;
+  font-weight: 800;
+}
+.topSaid h5 {
+  font-size: 22px;
+  font-weight: 800;
+  margin: 20px 0;
+}
+
+.madilSaid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.madilSaid .one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 150px;
+  width: 150px;
+  border-radius: 20px;
+  margin: 10px 0 20px;
+  border: 1px solid white;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+
+.one:hover {
+  transform: scale(1.1);
+}
+
+.one h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: -22px;
+}
+
+#city {
+  padding: 5px 5px;
+  width: 150px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 20px;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+#city option {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  cursor: pointer;
+}
+
+.theLabel {
+  font-size: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}

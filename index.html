@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- <script src="node_modules/axios/dist/axios.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- <script src="main.js"></script> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Questrial&family=Signika+Negative:wght@300..700&family=Varela+Round&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <title>مواقيت الصلاة</title>
+  </head>
+  <body>
+    <div class="homePage">
+      <div class="container">
+        <div class="topSaid">
+          <h1 id="cityName">القاهرة</h1>
+          <h5 id="theDate"></h5>
+          <label for="city" class="theLabel">اختر المدينة:</label>
+          <select id="city">
+            <option value="Cairo">القاهرة</option>
+            <option value="Alexandria">الإسكندرية</option>
+            <option value="Giza">الجيزة</option>
+            <option value="Aswan">أسوان</option>
+            <option value="Luxor">الأقصر</option>
+            <option value="Port Said">بورسعيد</option>
+            <option value="Mansoura" cityAr="">المنصورة</option>
+            <option value="Tanta">طنطا</option>
+            <option value="Sharm El Sheikh">شرم الشيخ</option>
+            <option value="Asyut">أسيوط</option>
+          </select>
+        </div>
+        <div class="madilSaid">
+          <div class="one">
+            <h3>الفجر</h3>
+            <h2 id="fajr"></h2>
+          </div>
+          <div class="one">
+            <h3>الشروق</h3>
+            <h2 id="sunrise"></h2>
+          </div>
+          <div class="one">
+            <h3>الظهر</h3>
+            <h2 id="dhorTime"></h2>
+          </div>
+          <div class="one">
+            <h3>العصر</h3>
+            <h2 id="aserTime"></h2>
+          </div>
+          <div class="one">
+            <h3>المغرب</h3>
+            <h2 id="maghrib"></h2>
+          </div>
+          <div class="one">
+            <h3>العشاء</h3>
+            <h2 id="isha"></h2>
+          </div>
+        </div>
+        <div class="footer">
+          <h3>اللهم صلى وسلم و بارك علي نبينا محمد</h3>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
